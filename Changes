@@ -1,40 +1,4 @@
-Revision history for Padre-Plugin-XML
-
-0.11    to be released
-        removed unnecessary code in document class (ZENOG)
-        Padre::Plugin::XML::Document => Padre::Document::XML (ZENOG)
-        Padre::Task::SyntaxChecker::XML => Padre::Document::XML::Syntax (ZENOG)
-        fix syntax checking (ZENOG)
-	Padre 0.81 compatibility (ZENOG)
-
-0.10	2010.08.25
-	fix ticket #943: crash on serialization of Task::SyntaxChecker::XML
-        (ZENOG)
-        compatibility with newer versions of Padre (ZENOG)
-        improved README file (ZENOG)
-        gettext-ified some strings (ZENOG)
-        Task API 2 compatibility (CHORNY)
-        auto syntax check works in new Padre (CHORNY)
-        Padre::Document::XML => Padre::Plugin::XML::Document (CHORNY)
-
-0.06    2009.05.31
-        removed taint mode for tests, leading to build failures (jquelin)
-
-0.05    2009.2.1
-        catch and report some errors (HJANSEN)
-        do not try to tidy non-XML documents (HJANSEN)
-        enable folding (HJANSEN)
-        for Padre 0.26
-
-0.04    2009.1.5
-        for Padre 0.23
-
-0.03    2008.12.24
-        added syntax checking capabilities (HJANSEN)
-        comment_lines_str (FAYLAND)
-
-0.02
-        add a new Padre::Document::XML
+Revision history for Padre-Plugin-ExperimentalPerlFilter
 
 0.01    Date/time
         First version, released on an unsuspecting world.
